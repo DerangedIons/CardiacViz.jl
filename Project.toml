@@ -1,0 +1,14 @@
+name = "CardiacViz"
+uuid = "2f16b088-e1ad-4c16-9192-0cf759aea5f1"
+authors = ["Kyle Beggs (beggskw@gmail.com) and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
+
+[extras]
+JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["JET", "Test"]
