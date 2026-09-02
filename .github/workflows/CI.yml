@@ -39,7 +39,7 @@ jobs:
         with:
           version: ${{ matrix.version }}
           arch: ${{ matrix.arch }}
-      - uses: julia-actions/cache@v2
+      - uses: julia-actions/cache@v3
       - name: Authenticate to private DerangedIons deps
         if: env.HAS_APP_KEY == 'true'
         uses: DerangedIons/.github/actions/julia-private-deps@main
@@ -68,7 +68,7 @@ jobs:
       - uses: julia-actions/setup-julia@v3
         with:
           version: '1'
-      - uses: julia-actions/cache@v2
+      - uses: julia-actions/cache@v3
       - name: Authenticate to private DerangedIons deps
         if: env.HAS_APP_KEY == 'true'
         uses: DerangedIons/.github/actions/julia-private-deps@main
