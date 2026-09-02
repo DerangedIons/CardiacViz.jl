@@ -1,3 +1,6 @@
 [deps]
 CardiacViz = "2f16b088-e1ad-4c16-9192-0cf759aea5f1"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+[compat]
+Documenter = "1.19.0"
